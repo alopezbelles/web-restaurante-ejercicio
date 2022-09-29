@@ -2,30 +2,156 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <!-- Iconos Boostrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Mis Estilos -->
+  <link rel="stylesheet" href="./css/index.css">
+
+
+
 </head>
 
-
-    <div class="container-fluid"></div>
-        
-        <div class="row head">hola head</div>
-
-
-
-
-
 <body>
+
+  <!-- Barra navegación -->
+  <div id="header">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="./index.html">HOME</a>
+        <a class="navbar-brand mx-auto" href="./pages/menu.html">MENÚ</a>
+        <a class="navbar-brand mx-auto" href="./pages/contacto.html">CONTACTO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/menu.html">MENÚ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link href="./">CONTACTO</a>
+                  </li>
+                </ul> -->
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Logo principal -->
+
+  <!-- <div id="body-logo"> -->
+    <div class="container.fluid">
+      <div class="row">
+        <div class="col">
+          <img src="./images/logo-asian-food-restaurant-06.png" class="img-fluid" alt="Logo-principal">
+          <img src="./images/patron-07.png" class="img-fluid" alt="Patron-japo">
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Carrusel platos -->
+
+  <div id="body-carrusel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/sushi (1).jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/sushi (2).jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/sushi (3).jpeg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <img src="./images/sushi (1).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/sushi (2).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/sushi (3).jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+    <!-- Nuestro Restaurante -->
+
+  <div id="body-info">
+    <div class="row">
+      <div class="col-md-4  col-decor">
+        <img class="decor" src="./images/decor-1-08.png" alt="decor-1">
+      </div>
+      <div class="col-md-4">
+        <h1>Nuestro Restaurante</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, odio temporibus! Non veritatis ea minima,
+          beatae, reiciendis quas illo atque vitae aperiam, illum sit mollitia!</p>
+
+
+      </div>
+      <div class="col-md-4 col-decor">
+        <img class="decor" src="./images/decor-9-09.png" alt="decor-2">
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div id="footer">
+      <div class="row">
+        
+          <div class="col contenedor-icono">
+            <i class="bi bi-instagram"></i>
+          </div>
+          <div class="col contenedor-icono">
+            <i class="bi bi-facebook"></i>          
+          </div>
+          <div class="col contenedor-icono">
+            <i class="bi bi-twitter"></i>
+          </div>
+    </div>
+
+  </div>
+
+
+
 
 </body>
 

@@ -1,7 +1,50 @@
-.container-fluid{
-    background-color: aquamarine;
+
+body{
+    background-color: #FBE2D0;
+    
 }
 
-.head{
-    background-color: blue;
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .body-logo{
+    height: 80vh;
+    size: 20vh;
+} */
+
+
+.decor{
+    width: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-decor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#body-info{
+    margin-top: 10vh;
+}
+
+#footer{
+    background-color: #314753;
+    height: 15vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contenedor-icono{
+    font-size: 30px;
+    color: #FBE2D0;
 }
