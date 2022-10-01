@@ -1,0 +1,42 @@
+body{
+    background-color: #314753;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#body-info{
+    margin-top: 10vh;
+}
+
+#footer{
+    background-color: #FBE2D0;
+    height: 8vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedor-icono{
+    font-size: 30px;
+    color: #314753;
+}
+
+
+
+.fondo-menu{
+    background-image: url(../images/menu-background.png);
+    background-size: cover;
+    height: 50vh;
+
+}
+
+
+
