@@ -1,0 +1,47 @@
+body{
+    background-color: #F44E45;
+    color: antiquewhite;
+
+}
+
+
+
+@font-face {
+    font-family: gang;
+    src: url(../fonts/gang.ttf);
+}
+
+#font-gang{
+    font-family: gang;
+    font-size: 48px;
+    color: #FBE2D0;
+    
+}
+
+#font-gang-2{
+    font-family: gang;
+    font-size: 30px;
+    color: #FBE2D0;
+    
+}
+
+.text-contact{
+    height: 25vh;
+}
+
+/* FOOTER */
+
+.contenedor-icono{
+    font-size: 30px;
+    color: #314753;
+}
+
+#footer{
+    background-color: #FBE2D0;
+    height: 8vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
