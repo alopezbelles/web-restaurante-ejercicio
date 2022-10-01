@@ -1,5 +1,6 @@
 body{
     background-color: #314753;
+    color: antiquewhite;
 
 }
 
@@ -37,6 +38,37 @@ body{
     height: 50vh;
 
 }
+
+.txt-menu{
+
+}
+
+@font-face {
+    font-family: gang;
+    src: url(../fonts/gang.ttf);
+}
+
+#font-gang{
+    font-family: gang;
+    font-size: 48px;
+    color: #FBE2D0;
+    
+}
+
+#font-gang-2{
+    font-family: gang;
+    font-size: 30px;
+    color: #FBE2D0;
+    
+}
+
+.border-white{
+    border-color: #FBE2D0;
+    border-style: dotted;
+    border-width: 5px;
+    
+}
+
 
 
 
