@@ -55,3 +55,23 @@ body{
     color: #FBE2D0;
 }
 
+@font-face {
+    font-family: gang;
+    src: url(../fonts/gang.ttf);
+}
+
+/* MIS TIPOGRAFIAS */
+
+#font-gang{
+    font-family: gang;
+    font-size: 48px;
+    color: #314753;
+    
+}
+
+#font-gang-2{
+    font-family: gang;
+    font-size: 30px;
+    color: #314753;
+    
+}
