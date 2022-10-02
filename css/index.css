@@ -11,16 +11,6 @@ body{
 }
 
 
-/* .body-logo{
-    height: 80vh;
-    size: 20vh;
-} */
-
-/* .overflowNONE{
-
-    overflow: hidden;
-} */
-
 .decor{
     width: 55vh;
     display: flex;
@@ -39,6 +29,8 @@ body{
 #body-info{
     margin-top: 10vh;
 }
+
+/* FOOTER */
 
 #footer{
     background-color: #314753;
